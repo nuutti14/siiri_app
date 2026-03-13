@@ -5,6 +5,14 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  max-width: 100%;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .App-logo {
+    height: 20vmin;
+  }
 }
 
 /* @media (prefers-reduced-motion: no-preference) {
@@ -30,7 +38,10 @@
 
 .App-div {
   padding: 10px;
-  padding-left: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
 }
 
 @keyframes App-logo-spin {
