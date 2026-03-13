@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import img_1 from './IMG_8106.png';
 import img_2 from './img_2.png';
 import img_3 from './img_3.png';
